@@ -79,10 +79,10 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center">
-                <i className="bi bi-geo-alt mr-2"></i> Nairobi, Kenya
+                <i className="bi bi-geo-alt mr-2"></i> Mombasa, Kenya
               </li>
               <li className="flex items-center">
-                <i className="bi bi-telephone mr-2"></i> +254 700 000000
+                <i className="bi bi-telephone mr-2"></i> +254 706 602170 | +254 111 363870
               </li>
               <li className="flex items-center">
                 <i className="bi bi-envelope mr-2"></i> info@dhilaxtech.co.ke

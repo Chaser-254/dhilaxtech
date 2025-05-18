@@ -55,9 +55,9 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Our Location</h3>
               <p className="text-gray-600">
-                123 Business Street
+                Dhilax Tech
                 <br />
-                Nairobi, Kenya
+                Mombasa, Kenya
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -77,9 +77,9 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Call Us</h3>
               <p className="text-gray-600">
-                +254 700 000000
+                +254 706 602170 
                 <br />
-                +254 733 000000
+                +254 111 363870
               </p>
             </div>
           </div>
