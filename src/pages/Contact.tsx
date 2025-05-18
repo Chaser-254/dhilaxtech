@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Map from '../components/Map';
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -177,7 +176,16 @@ const Contact: React.FC = () => {
       {/* Map Section */}
       <section className="py-8">
         <div className="container mx-auto px-4">
-          <Map />
+          <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
+            <div className="text-center">
+              <i className="bi bi-map text-4xl text-gray-500 mb-4"></i>
+              <h3 className="text-xl font-semibold">Map Placeholder</h3>
+              <p className="text-gray-600">
+                In a real application, a Google Map or OpenStreetMap would be
+                displayed here
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>;

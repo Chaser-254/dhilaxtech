@@ -8,12 +8,16 @@ import Services from './pages/Services';
 import Booking from './pages/Booking';
 import Contact from './pages/Contact';
 import './App.css';
+
 export function App() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const toggleSidebar = () => {
-    setSidebarOpen(!sidebarOpen);
+  const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
+
+  const toggleSidebar = (): void => {
+    setSidebarOpen((prevState) => !prevState);
   };
-  return <Router>
+
+  return (
+    <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar toggleSidebar={toggleSidebar} />
         <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
@@ -27,5 +31,6 @@ export function App() {
         </main>
         <Footer />
       </div>
-    </Router>;
+    </Router>
+  );
 }
