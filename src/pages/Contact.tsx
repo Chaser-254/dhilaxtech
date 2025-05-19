@@ -56,9 +56,9 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Our Location</h3>
               <p className="text-gray-600">
-                123 Business Street
+                Dhilax Tech
                 <br />
-                Nairobi, Kenya
+                Mombasa, Kenya
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -67,9 +67,9 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Email Us</h3>
               <p className="text-gray-600">
-                info@dhilaxtech.co.ke
+                eddymandela28@gmail.com
                 <br />
-                support@dhilaxtech.co.ke
+                eddymandela28@gmail.com
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -199,11 +199,11 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="flex justify-between pb-2 border-b border-gray-200">
                     <span className="font-medium">Saturday</span>
-                    <span className="text-gray-600">9:00 AM - 1:00 PM</span>
+                    <span className="text-gray-600">8:00 AM - 5:00 PM</span>
                   </div>
                   <div className="flex justify-between pb-2 border-b border-gray-200">
                     <span className="font-medium">Sunday</span>
-                    <span className="text-gray-600">Closed</span>
+                    <span className="text-gray-600">9:00 AM - 1:00 PM</span>
                   </div>
                   <div className="flex justify-between pb-2 border-b border-gray-200">
                     <span className="font-medium">Public Holidays</span>
