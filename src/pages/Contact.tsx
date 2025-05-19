@@ -56,9 +56,8 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Our Location</h3>
               <p className="text-gray-600">
-                123 Business Street
                 <br />
-                Nairobi, Kenya
+                Mombasa, Kenya
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -67,9 +66,9 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Email Us</h3>
               <p className="text-gray-600">
-                info@dhilaxtech.co.ke
+                eddymandela28@gmail.com
                 <br />
-                support@dhilaxtech.co.ke
+                eddymandela28@gmail.com
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -141,11 +140,11 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="flex justify-between pb-2 border-b border-gray-200">
                     <span className="font-medium">Saturday</span>
-                    <span className="text-gray-600">9:00 AM - 1:00 PM</span>
+                    <span className="text-gray-600">Closed</span>
                   </div>
                   <div className="flex justify-between pb-2 border-b border-gray-200">
                     <span className="font-medium">Sunday</span>
-                    <span className="text-gray-600">Closed</span>
+                    <span className="text-gray-600">9:00 AM - 1:00 PM<</span>
                   </div>
                   <div className="flex justify-between pb-2 border-b border-gray-200">
                     <span className="font-medium">Public Holidays</span>
@@ -177,7 +176,20 @@ const Contact: React.FC = () => {
       {/* Map Section */}
       <section className="py-8">
         <div className="container mx-auto px-4">
+<<<<<<< HEAD
           <Map />
+=======
+          <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
+            <div className="text-center">
+              <i className="bi bi-map text-4xl text-gray-500 mb-4"></i>
+              <h3 className="text-xl font-semibold">Map Placeholder</h3>
+              <p className="text-gray-600">
+                In a real application, a Google Map or OpenStreetMap would be
+                displayed here
+              </p>
+            </div>
+          </div>
+>>>>>>> 6bd9e27b47e3b01ff1d3c30f2f032fb4e4a4c46d
         </div>
       </section>
     </div>;

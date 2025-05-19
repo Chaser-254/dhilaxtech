@@ -10,10 +10,19 @@
     "preview": "npx vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "react-leaflet": "^4.2.1"
+=======
+    "@types/leaflet": "^1.9.17",
+    "leaflet": "^1.9.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^6.26.2"
+>>>>>>> 6bd9e27b47e3b01ff1d3c30f2f032fb4e4a4c46d
   },
   "devDependencies": {
     "@types/node": "^20.11.18",
@@ -22,6 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "@vitejs/plugin-react": "^4.2.1",
+<<<<<<< HEAD
     "eslint": "^8.50.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
@@ -32,3 +42,15 @@
     "postcss": "latest"
   }
 }
+=======
+    "autoprefixer": "latest",
+    "eslint": "^8.50.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "postcss": "latest",
+    "tailwindcss": "3.4.17",
+    "typescript": "^5.5.4",
+    "vite": "^6.3.5"
+  }
+}
+>>>>>>> 6bd9e27b47e3b01ff1d3c30f2f032fb4e4a4c46d

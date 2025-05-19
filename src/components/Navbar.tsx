@@ -10,7 +10,11 @@ const Navbar: React.FC<NavbarProps> = ({
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
+<<<<<<< HEAD
             <button onClick={toggleSidebar} className="md:hidden mr-4 text-gray-700 hover:text-[#e30613] focus:outline-none">
+=======
+            <button onClick={toggleSidebar} className="mr-4 text-gray-700 hover:text-[#e30613] focus:outline-none">
+>>>>>>> 6bd9e27b47e3b01ff1d3c30f2f032fb4e4a4c46d
               <i className="bi bi-list text-2xl"></i>
             </button>
             <Link to="/" className="flex items-center">
